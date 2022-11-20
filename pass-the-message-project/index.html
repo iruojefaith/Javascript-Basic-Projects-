@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Message Sender App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Message Sending App</h3>
+        </div>
+        <label for="message-input">Enter a message</label>
+        <textarea type="text" id="message-input" > </textarea>
+        <p id="errormsg"> </p>
+        <button id="submit" type="submit">submit</button>
+        <div class="messageDelivered">
+            <div class="loaderGroup" id="loaderGroup">
+                <span class="loadertext">Message Sending...</span>
+                <div class="loader">loading</div>
+            </div>
+            <p >last Message Was delivered</p>
+        </div>
+        <div class="message-box" id="message-box">
+            Message sent
+        </div>
+        <div class="showSent" id="showSent">
+            Message Sent <i class="fa fa-check" aria-hidden="true"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
