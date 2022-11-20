@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>imageSlider</title>
 </head>
 <body>
+<div class="container position-relative  d-flex  flex-column align-items-center ">
+    <!-- THE IMAGES -->
+    <div class="position-relative mt-5 image-container">
+     <img class="image" src="./assets/slider1.jpeg" alt="" width="100%">
+      <!--SLIDER BUTTON-->
+    <div class="sliderbtn position-absolute d-flex justify-content-between">
+    <button class="prev">&larr;</button>
+    <button class="next">&rarr;</button>
+    </div>
+    </div>
 
+    <!-- THE COUNT AND NUMBER OF THE IMAGES -->
+    <div>
+    <span class="slide-image-number">1</span> of
+    <span class="total-image-number">4</span>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>
