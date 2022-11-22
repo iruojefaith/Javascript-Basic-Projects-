@@ -12,16 +12,17 @@
         <div class="header">
             <h3>Message Sending App</h3>
         </div>
-        <label for="message-input">Enter a message</label>
-        <textarea type="text" id="message-input" > </textarea>
+        <div class="main-box">
+             <label for="message-input">Enter a message:</label>
+        <textarea type="text" id="message-input" class="message-input"> </textarea>
         <p id="errormsg"> </p>
-        <button id="submit" type="submit">submit</button>
+        <button id="submit" class="send-btn" type="submit">submit</button>
         <div class="messageDelivered">
             <div class="loaderGroup" id="loaderGroup">
                 <span class="loadertext">Message Sending...</span>
-                <div class="loader">loading</div>
+                <div class="loader"></div>
             </div>
-            <p >last Message Was delivered</p>
+            <p >  Last message was delivered</p>
         </div>
         <div class="message-box" id="message-box">
             Message sent
@@ -30,6 +31,8 @@
             Message Sent <i class="fa fa-check" aria-hidden="true"></i>
         </div>
     </div>
+        </div>
+
     <script src="script.js"></script>
 </body>
 </html>
