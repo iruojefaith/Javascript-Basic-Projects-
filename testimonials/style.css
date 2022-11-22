@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #0a69ed;
+  background-color: #01010f;
 }
 .wrapper {
   background-color: #ffffff;
@@ -37,7 +37,7 @@ body {
   top: 0;
   bottom: 0;
   border: none;
-  color: #0a69ed;
+  color: #ed7b0a;
   box-shadow: 0 0 1em rgba(1, 17, 39, 0.25);
   cursor: pointer;
   border-radius: 50%;
@@ -59,7 +59,9 @@ button#prev {
   display: block;
   margin: 1.8em auto 1.25em auto;
   border-radius: 50%;
-  width: 4.4em;
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
 }
 .testimonial-container h3 {
   color: #2d3d67;
@@ -67,7 +69,7 @@ button#prev {
   text-align: center;
 }
 .testimonial-container h6 {
-  color: #bcc4da;
+  color: #ed7b0a;
   font-size: 0.9em;
   letter-spacing: 0.03em;
   font-weight: 400;
